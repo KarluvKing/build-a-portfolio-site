@@ -1,0 +1,61 @@
+notes
+
+###### DEFINE CSS
+
+<link rel="stylesheet" href="styles.css">
+
+###### VIEWPORT
+
+<header>
+  <meta name="viewport" content="width=device-width,initial-sclae=1.0">
+</header>
+
+####### RELATIVE POSITIONS
+
+CSS
+
+img, embed, object, video {
+	max-width: 100%
+}
+
+\\\ torna todos os elementos que não são texto relativos \\\
+
+nav a, button {
+	width: 48px;
+	height: 48px;
+}
+
+\\\ garante que butões e links tem espaço suficiente para clicar \\\
+
+######## MEDIA QUERIES
+
+<link rel="stylesheet" media="screen and (min-width:500px)" href="over500.css">
+
+\\\ usar como condição min-width e max-width \\\
+
+######## GRID FLUID SYSTEM
+
+.container {
+	width: 100%;
+	display: flex; \\\ ajusta apenas em uma linha
+	flex-wrap: wrap; \\\ ajusta para a linha seguinte por orde
+	order: 1 \\\ indica qual a ordem pela qual aparece na pagina
+}
+
+\\\ Outro exemplo
+
+.header {
+	width: 100%; \\\ ocupa a linha toda
+	order: 1;
+}
+
+.red {
+	width: 50%; \\\ ocupa metade a linha toda
+	order: 2;
+}
+
+.orange {
+	width: 50%;
+	order: 3;
+}
+
