@@ -1,0 +1,40 @@
+.principalHeader {
+	display: flex;
+	align-items: center;
+}
+
+.works {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+}
+
+.bigImage {
+
+}
+
+.featuredWork {
+
+}
+
+#logo {
+	width: 240px;
+    height: 200px;
+}
+
+#textTitle {
+	margin-left: auto;
+	text-align: right;
+	font-family: sans-serif;
+	font-size: -webkit-xxx-large; 
+
+}
+
+#subTextTitle {
+	margin-left: auto;
+	text-align: right;
+	font-size: xx-large;
+}
