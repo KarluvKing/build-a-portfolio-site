@@ -2,40 +2,48 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Build a portofolio website</title>  
-    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   </head>
   <body>
-    <header class="page_header">
-        <img class="pull-left" src="img/logo.jpg" alt="logo">
-      <h1 class="text-right">RUI PAIVA BRANCO<br><span><small>JR. Full Stack Web Developer</small></span></h1>
-    </header>
-
-  	<img class="img-responsive" src="img/big_image.jpg" alt="big image">
-
-    <h3 class="featured_work">Featured Work</h3><br> 
-
-    <section class="works">
-    <!-- sidebar content goes in here -->
-      <div>
-        <img class="logo" src="img/ex01.jpg" alt="exemple1">
+  <!-- Header with logo, name and my function --> 
+  <header class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6">
+        <img class="img-responsive pull-left" src="img/logo.png" alt="logo"> </div>
+        <div class="col-xs-12 col-sm-6">
+        	<h1 class="text-right">RUI PAIVA BRANCO<br><span><small>JR. Full Stack Web Developer</small></span></h1></div>
+    </div>
+  </header>
+  <!-- big image center --> 
+  <section class="container">
+  	<h3>My favorite Landscape</h3><br>
+    <div class="row">
+      <div class="col-sm-12">
+        <img class="img-responsive" src="img/big_image.jpg" alt="big image"></div>
+    </div>
+  </section> 
+  <!-- Featured Work / projects --> 
+  <section class="container-fluid container">
+    <h3>Featured Work</h3><br> 
+    <div class="row">
+      <div class="col-xs-12 col-sm-4">
+        <img class="img-responsive" src="img/ex01.jpg" alt="exemple1">
         <small>site 1</small>
-        <a href="https://github.com/udacity/exemple1"> Example 1</a> 
-        </div>
-
-      <div>
-        <img class="logo" src="img/ex02.jpg" alt="exemple2">
+        <a href="https://github.com/udacity/exemple1"> Example 1</a>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <img class="img-responsive" src="img/ex02.jpg" alt="exemple2">
         <small>site 2</small>
         <a href="https://github.com/udacity/exemple2"> Example 2</a> 
       </div>
-
-      <div>
-        <img class="logo" src="img/ex01.jpg" alt="exemple3">
+      <div class="col-xs-12 col-sm-4">
+        <img class="img-responsive" src="img/ex03.jpg" alt="exemple3">
         <small>site 3</small>
         <a href="https://github.com/udacity/exemple3"> Example 3</a>
       </div>
-    </section>
+    </div>
+  </section>
   </body>
 </html>

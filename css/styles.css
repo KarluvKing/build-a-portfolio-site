@@ -1,3 +1,6 @@
+/* CSS BEFORE BOOTSRAP */
+
+/*
 .principal_header {
 	display: flex;
 	align-items: center;
@@ -22,24 +25,17 @@
 }
 
 .featured_work {
-	/* display: flex; */
-    /* flex-wrap: wrap; */
+
 	margin-left: auto;
 	text-align: left;
 	color: #2d3c49;
     font-size: x-large;
     font-family: sans-serif;
     order: 2;
-    /* margin: 15 15px; */
+
 }
 
-.logo {
-	width: 200px;
-    height: 150px;
-    display: flex;
-    flex-wrap: wrap;
-    order: 0;
-    margin: 15 15px;
+
 }
 
 #text_title {
@@ -60,3 +56,5 @@
 	font-size: smaller;
 	margin: 15 15px;
 }
+
+*/
